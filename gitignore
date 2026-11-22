@@ -1,0 +1,22 @@
+# 機密設定
+.env
+.env.txt
+
+# 私人角色設定（範例請放 persona.example.txt）
+persona.txt
+persona.txt.txt
+
+# 執行時產生的資料（對話 ID、圖片、語音）
+state.json
+state.tmp
+agy_workdir/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 系統檔
+.DS_Store
+Thumbs.db
