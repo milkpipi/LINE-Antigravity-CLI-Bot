@@ -24,7 +24,7 @@ LINE ──webhook──> cloudflared ──> line_agy_bot.py ──> agy -p（A
 ## 需求
 
 - Python 3.9+
-- [Antigravity CLI](https://antigravity.google/)（`agy`）＋ Google AI Pro / Ultra 訂閱
+- [Antigravity CLI](https://antigravity.google/)（`agy`）
 - LINE Messaging API channel
 - [cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/)（或其他能把 webhook 開到外網的工具）
 - 選用：ffmpeg（語音）、`pip install edge-tts`（備援語音）、Gemini API key（Gemini TTS）
